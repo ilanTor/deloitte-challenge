@@ -1,2 +1,2 @@
 # deloitte-challenge
-Cloud Solutions Architect Challenge
+Cloud Security Architect Challenge
