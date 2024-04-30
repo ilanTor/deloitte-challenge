@@ -64,16 +64,3 @@ resource "aws_security_group_rule" "instance_rule" {
   cidr_blocks       = ["0.0.0.0/0"]
   security_group_id = aws_security_group.my_instance_sg.id
 }
-
-# Detect Function: 
-# Although not implemented in this script, the Detect function can be achieved 
-# through the use of AWS CloudTrail, Amazon GuardDuty, and AWS Config.
-
-# Respond Function: 
-# Organizations can implement automated response mechanisms using AWS Lambda 
-# functions triggered by CloudWatch Events to respond to security incidents in real-time.
-
-# Recover Function: 
-# The Recover function involves restoring services and data after a security incident. 
-# This can be accomplished by leveraging AWS Backup for data recovery and restoring 
-# EC2 instances from snapshots or backups stored in Amazon S3.
